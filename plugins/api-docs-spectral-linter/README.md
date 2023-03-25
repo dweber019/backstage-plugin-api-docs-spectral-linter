@@ -4,7 +4,7 @@ Welcome to the [Spectral](https://stoplight.io/open-source/spectral) Linter plug
 
 This plugin allows you to lint (validate) API's with rule sets.
 
-![Spectral linter](./docs/spectral-linter.png)
+![Spectral linter](https://raw.githubusercontent.com/dweber019/backstage-plugin-api-docs-spectral-linter/main/plugins/api-docs-spectral-linter/docs/spectral-linter.png)
 
 ## Setup
 
@@ -12,7 +12,7 @@ This plugin allows you to lint (validate) API's with rule sets.
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/app add @dweber019/plugin-api-docs-spectral-linter
+yarn --cwd packages/app add @dweber019/backstage-plugin-api-docs-spectral-linter
 ```
 
 ### Entity Pages

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "concurrently \"yarn start\"",
-    "start": "yarn workspace @dweber019/plugin-api-docs-spectral-linter start",
+    "start": "yarn workspace @dweber019/backstage-plugin-api-docs-spectral-linter start",
     "start:ci": "concurrently \"yarn start\"",
     "build": "backstage-cli repo build --all",
     "tsc": "tsc",
