@@ -68,20 +68,14 @@ export class LinterClient implements LinterApi {
       );
     }
 
-    const result = await fetch(ruleSetToDownload);
-    const ruleSetContent = await result.text();
-
-    if (!result.ok) {
-      throw new Error(
-        `Could not download rule set ${ruleSetToDownload} (statusCode: ${result.status})`,
-      );
-    }
-
     const fs = {
       promises: {
         async readFile(filepath: string) {
           if (filepath === '/.spectral.yaml') {
-            return ruleSetContent;
+            return `
+            extends:
+            - ${ruleSetToDownload}
+            `;
           }
 
           throw new Error(`Could not read ${filepath}`);

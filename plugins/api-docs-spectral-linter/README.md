@@ -21,7 +21,7 @@ yarn --cwd packages/app add @dweber019/backstage-plugin-api-docs-spectral-linter
 
 ```jsx
 // In packages/app/src/components/catalog/EntityPage.tsx
-import { EntityApiDocsSpectralLinterContent, isApiDocsSpectralLinterAvailable } from '@backstage/plugin-api-docs-spectral-linter';
+import { EntityApiDocsSpectralLinterContent, isApiDocsSpectralLinterAvailable } from '@dweber019/backstage-plugin-api-docs-spectral-linter';
 
 ...
 
