@@ -1,5 +1,11 @@
 # @dweber019/backstage-plugin-api-docs-spectral-linter
 
+## 0.2.1
+
+### Patch Changes
+
+- d403512: Update backstage components to version 1.13.0.
+
 ## 0.2.0
 
 ### Minor Changes
