@@ -1,5 +1,11 @@
 # @dweber019/backstage-plugin-api-docs-spectral-linter
 
+## 0.2.2
+
+### Patch Changes
+
+- e62ffff: Update backstage dependencies to 1.14.0.
+
 ## 0.2.1
 
 ### Patch Changes
