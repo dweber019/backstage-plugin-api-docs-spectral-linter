@@ -2281,7 +2281,7 @@ __metadata:
     "@material-ui/icons": ^4.9.1
     "@material-ui/lab": 4.0.0-alpha.57
     "@stoplight/spectral-core": ^1.16.1
-    "@stoplight/spectral-ruleset-bundler": ^1.5.1
+    "@stoplight/spectral-ruleset-bundler": ^1.5.2
     "@stoplight/spectral-runtime": ^1.1.2
     "@testing-library/jest-dom": ^5.10.1
     "@testing-library/react": ^12.1.3
@@ -4044,9 +4044,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stoplight/spectral-ruleset-bundler@npm:^1.5.1":
-  version: 1.5.1
-  resolution: "@stoplight/spectral-ruleset-bundler@npm:1.5.1"
+"@stoplight/spectral-ruleset-bundler@npm:^1.5.2":
+  version: 1.5.2
+  resolution: "@stoplight/spectral-ruleset-bundler@npm:1.5.2"
   dependencies:
     "@rollup/plugin-commonjs": ~22.0.2
     "@stoplight/path": 1.3.2
@@ -4064,7 +4064,7 @@ __metadata:
     rollup: ~2.79.0
     tslib: ^2.3.1
     validate-npm-package-name: 3.0.0
-  checksum: ddf1c9de57a024a0f820f9e391cb72964b2065848a6e9f28baa223ca850b11ec9d91fe393308a25f1cac6c70da709ae8b095eab4d7bcc70bf890868d10bf692b
+  checksum: a990f2fee1d25dae8330910c6f84bc4f0c43400c300ff503a70dc2b31f5e4c9060aa7f574d3b3f24c9647855177ccf7b53c43e57ff0e419c93fe9c88c33bd539
   languageName: node
   linkType: hard
 
